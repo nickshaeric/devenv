@@ -9,7 +9,7 @@ alias grep='grep --color=auto'
 alias zath='zathura'
 
 # oh-my-zsh
-export ZSH="$HOME/dotfiles/oh-my-zsh"
+export ZSH="$HOME/devenv/oh-my-zsh"
 ZSH_THEME="robbyrussell"
 plugins=(
     git
@@ -18,9 +18,6 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-
-# history
-unsetopt share_history
 
 # config
 export EDITOR="nvim"
